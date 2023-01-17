@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
-  msg: string
-}>()
+  msg: string;
+}>();
 </script>
 
 <template>
@@ -10,8 +10,11 @@ defineProps<{
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      What's next?
     </h3>
+    <br />
+    <h4>Hello Retex!</h4>
   </div>
 </template>
 
@@ -24,6 +27,11 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
+}
+h4 {
+  color: green;
+  background-color: bisque;
+  width: 15px;
 }
 
 .greetings h1,

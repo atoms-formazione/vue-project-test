@@ -14,7 +14,7 @@ defineProps<{
       What's next?
     </h3>
     <br />
-    <h4>Hello Retex!</h4>
+    <h4>HelloRetex!</h4>
   </div>
 </template>
 
@@ -31,6 +31,7 @@ h3 {
 h4 {
   color: green;
   background-color: bisque;
+
   width: 15px;
 }
 

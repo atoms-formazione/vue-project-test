@@ -4,7 +4,7 @@
     <P>Questo è un nuovo component</P>
   </div>
 </template>
-<script>
+<script lang="ts">
 export default {};
 </script>
 <style lang="css">

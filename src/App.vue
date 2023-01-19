@@ -8,7 +8,7 @@ import HelloWorld from "./components/HelloWorld.vue";
     <img
       alt="Vue logo"
       class="logo"
-      src="@/assets/logo.svg"
+      src="https://d16u9y6cg00afk.cloudfront.net/Linobanfi/4792707.512.webp"
       width="125"
       height="125"
     />

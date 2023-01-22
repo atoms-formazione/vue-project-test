@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
+import MyComponentPietroS from "./components/MyComponentPietroS.vue";
 </script>
 
 <template>
@@ -23,8 +24,10 @@ import HelloWorld from "./components/HelloWorld.vue";
       <MyComponentSimoneVue></MyComponentSimoneVue>
     </div>
   </header>
-
   <RouterView />
+  <body>
+    <MyComponentPietroS></MyComponentPietroS>
+  </body>
 </template>
 
 <style scoped>

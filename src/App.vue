@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
-import MyComponentPietroS from "./components/MyComponentPietroS.vue";
+import PietroS from "./components/MyComponentPietroS.vue";
 </script>
 
 <template>
@@ -26,11 +26,20 @@ import MyComponentPietroS from "./components/MyComponentPietroS.vue";
   </header>
   <RouterView />
   <body>
-    <MyComponentPietroS></MyComponentPietroS>
+    <PietroS name="Bubu"></PietroS>
+    <PietroS name="Bebe"></PietroS>
+    <PietroS name="Bibi"></PietroS>
   </body>
 </template>
 
 <style scoped>
+
+body{
+  display: flex;
+  flex-direction: column;
+  gap: none;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;

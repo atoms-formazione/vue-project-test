@@ -1,15 +1,25 @@
 <script lang="ts" >
-    import { defineComponent, ref} from 'vue';
+    // import { defineComponent, ref} from 'vue';
   
-    export default {}
+    export default {
+      name: "PietroS",
+      props: ['name']
+    }
 
-  const msg = ref('Dubidu!')
+  // const msg = ref('Dubidu!')
 // ref ==> reactive reference
 </script>
 
 <template>
-<h2>Ciao</h2>
+<h2 class="ciao">Ciao {{ name }}</h2> 
 <!-- <p>{{ msg.toLocaleUpperCase() }}</p> -->
-<h2> Mmmmm... </h2>
-
 </template>
+
+<style>
+.ciao{
+color: cadetblue;
+border: 1px white solid;
+padding: 10px;
+margin: auto;
+}
+</style>

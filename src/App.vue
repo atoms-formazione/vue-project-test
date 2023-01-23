@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
 import MyComponentPietroS from "./components/MyComponentPietroS.vue";
+import RandomComponent from "./components/RandomComponent.vue";
 </script>
 
 <template>
@@ -26,6 +27,7 @@ import MyComponentPietroS from "./components/MyComponentPietroS.vue";
   </header>
   <RouterView />
   <body>
+    <h11 class="g2">@RandomComponent</h11>
     <MyComponentPietroS></MyComponentPietroS>
   </body>
 </template>
@@ -90,6 +92,9 @@ nav a:first-of-type {
 
     padding: 1rem 0;
     margin-top: 1rem;
+  }
+  body .g2{
+    background-color: whitesmoke;
   }
 }
 </style>
